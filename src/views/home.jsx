@@ -33,12 +33,12 @@ const Home = (props) => {
                 </h1>
               </header>
               <div className="home-buttons">
-                <div className="home-get-started button">
+                <a href='/hire' className="home-get-started button">
                   <span className="home-text">Get started</span>
-                </div>
-                <div className="home-get-started1 button">
+                </a>
+                <a href='/hire' className="home-get-started1 button">
                   <span className="home-text01">View features</span>
-                </div>
+                </a>
               </div>
             </main>
             <div className="home-highlight">
