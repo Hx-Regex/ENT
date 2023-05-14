@@ -33,10 +33,10 @@ const Home = (props) => {
                 </h1>
               </header>
               <div className="home-buttons">
-                <a href='/hire' className="home-get-started button">
+                <a onClick={() => history.push('/hire')}className="home-get-started button">
                   <span className="home-text">Get started</span>
                 </a>
-                <a href='/hire' className="home-get-started1 button">
+                <a onClick={() => history.push('/')} className="home-get-started1 button">
                   <span className="home-text01">View features</span>
                 </a>
               </div>
